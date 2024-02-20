@@ -1,0 +1,172 @@
+
+body {
+  background-color: #fdfdfd;
+  text-align: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+#navbar {
+  width: 30;
+  height: 10vh;
+  background-color: #040503;  
+  overflow: hidden;
+}
+
+nav ul a {
+  color: #ffffff;
+  padding: 10px 16px;
+  text-decoration: none;
+  float: right;
+}
+nav a:hover {
+  background-color: rgb(
+    255,
+    255,
+    255
+  ); /* Color de fondo al pasar el ratón por encima */
+  color: rgb(8, 6, 6);
+}
+
+nav img {
+  width: 100px;
+  border-radius: 100%;
+  z-index: index 1;
+  position: absolute;
+  left: 0;
+  margin: 2px 20px;
+}
+
+nav h2 {
+  float: inline-start;
+  margin-left: 140px;
+  color: #f1f1f1;
+  font-size: 1.9em; /* Tamaño base del texto */
+  font-weight: bold;
+}
+#navbar h2:hover {
+  scale: 1.2;
+  color: rgb(245, 240, 234);
+}
+#navbar img:hover {
+  scale: 1.2;
+}
+
+header {
+  width: 100%;
+  height: 100%;
+}
+
+header img {
+  width: 100%;
+  height: 70vh;
+}
+
+.content h1 {
+  font-size: 50px;
+  font-family: Impact, Haetenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.productos {
+  background-color: #ffffff;
+  width: 100%;
+  height: max-content;
+  position: relative;
+  justify-content: space-around;
+  display: flex;
+  /* overflow: hidden; */
+}
+
+.productos img:hover {
+  transition: transform 0.3s;
+  /*Agregaunatransiciónsuave*/
+  transform: scale(1.6);
+}
+
+div img {
+  width: 200px;
+  height: 250px;
+  padding: 15px;
+  border-radius: 50%;
+  border: 0;
+  transition: border-color 0.5s ease;
+  cursor: pointer;
+}
+
+.contacto2 {
+  width: 80vh;
+  height: max-content;
+  margin-bottom: 7%;
+  left: 30%;
+  font-family: "Times New Roman", Times, serif;
+  font-style: italic;
+  text-align: center;
+  background-image: url(./imagenes/fruits-orange-drink-fruit-wallpaper-preview.jpg);
+  position: relative;
+  border: 0;
+  border-radius: 20px;
+  padding: 10px;
+  transition: border-color 0.5s ease;
+}
+
+.contacto2:hover {
+  scale: 1.05;
+}
+
+.form-txt {
+  display: flex;
+  justify-content: space-around;
+}
+
+.form-txt a {
+  color: #fdfdfdbd;
+  text-decoration: none;
+  font-size: 20px;
+  margin-bottom: 25px;
+}
+.form-txt a:hover {
+  color: rgb(0, 0, 0);
+  scale: 1.1;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+input,
+textarea {
+  background-color: #414441;
+  padding: 20px 14px;
+  margin-bottom: 25px;
+  border: 0;
+  border-radius: 10px;
+  font-size: 20px;
+  color: #c7c7d6;
+  opacity: 0.8;
+}
+textarea:focus {
+  outline: 1px solid #080708;
+} /* esta propiedad cambia color del borde del input seleccionado */
+
+input:focus {
+  outline: 1px solid #0a0a0a;
+}
+.btn {
+  background-color: #252726;
+  color: #ffffff;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+footer {
+  background-color: #df1919;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  margin-top: 30px;
+}
